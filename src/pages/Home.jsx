@@ -79,7 +79,7 @@ const Home = () => {
                   <td className="border border-gray-600 rounded-md text-center max-md:hidden p-2 text-white">
                     {book.publishedyear}
                   </td>
-                  <td className="border border-gray-600 rounded-md text-center max-md:hidden p-2">
+                  <td className="border border-gray-600 rounded-md text-center p-2">
                     <div className="flex justify-center gap-x-4">
                       <Link to={`/books/details/${book._id}`}>
                         <BsInfoCircle className="text-2xl text-green-300" />
